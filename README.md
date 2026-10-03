@@ -18,7 +18,7 @@ resultando em recomendações baseadas nos dados.
 
 ## Pergunta norteadora
 
-> **O que mais impacta a satisfação dos clientes da Olist?**
+> **Clientes mais satisfeitos trazem maior receita?**
 
 A análise começou investigando se pedidos de maior valor estavam associados
 a clientes mais satisfeitos.
