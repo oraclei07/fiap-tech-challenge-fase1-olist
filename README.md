@@ -20,10 +20,17 @@ resultando em recomendações baseadas nos dados.
 
 > **Clientes mais satisfeitos trazem maior receita?**
 
-A análise começou investigando se pedidos de maior valor estavam associados
-a clientes mais satisfeitos.
+Essa é a pergunta de negócio que orienta o projeto.
 
-Os dados não sustentaram essa hipótese.
+Como o dataset da Olist não informa receita, comissão ou margem da empresa,
+a hipótese foi testada utilizando o **valor transacionado em produtos**
+como referência analítica.
+
+Assim, a pergunta operacional utilizada na análise foi:
+
+> **Clientes mais satisfeitos estão associados a pedidos de maior valor transacionado?**
+
+Os dados não sustentaram essa hipótese operacional.
 
 Ao avançar para outras dimensões da operação, o desempenho das entregas
 apresentou uma associação consideravelmente mais relevante com as avaliações
@@ -45,7 +52,7 @@ positiva muito forte entre essas duas medidas.
 Os resultados mostram que o crescimento do valor transacionado acompanhou
 principalmente o aumento do volume de pedidos.
 
-### 2. Valor do pedido não explica satisfação
+### 2. Valor transacionado não explica satisfação
 
 A correlação de Spearman entre a nota de satisfação e o valor do pedido
 foi de aproximadamente **-0,03**.
@@ -53,8 +60,8 @@ foi de aproximadamente **-0,03**.
 O valor mediano dos pedidos também não apresentou crescimento à medida
 que as notas de satisfação aumentaram.
 
-Dessa forma, os dados não sustentaram a hipótese de que pedidos de maior
-valor estariam associados a clientes mais satisfeitos.
+Dessa forma, os dados não sustentaram a hipótese de que maior satisfação
+estaria associada a maior valor transacionado.
 
 ### 3. Atraso na entrega apresenta forte associação com insatisfação
 
@@ -143,10 +150,10 @@ de experiência e desempenho operacional.
 
 ## Conclusão
 
-A hipótese inicial do projeto foi refinada ao longo da análise.
+A pergunta inicial do projeto foi refinada ao longo da análise.
 
-> **Clientes não ficam mais satisfeitos porque gastam mais.  
-> Eles ficam menos satisfeitos quando a entrega falha.**
+> **A satisfação não apresentou associação relevante com o valor transacionado.  
+> O principal sinal de insatisfação identificado foi a falha na entrega.**
 
 O principal direcionamento identificado pelos dados é que o crescimento
 da operação deve ser acompanhado pela capacidade de manter a confiabilidade
@@ -232,7 +239,8 @@ Os arquivos brutos não são armazenados neste repositório.
 Neste projeto, **valor transacionado** corresponde à soma do campo `price`
 dos produtos associados aos pedidos analisados.
 
-Esse indicador não representa receita, comissão ou margem da Olist.
+Esse indicador foi utilizado como referência para testar a pergunta de negócio,
+mas **não representa receita, comissão ou margem da Olist**.
 
 ---
 
@@ -286,9 +294,6 @@ notebooks/01_exploracao_dados_olist.ipynb
 ```
 
 Execute as células na ordem apresentada.
-
-O notebook realiza a exploração, tratamento e consolidação das bases
-analíticas utilizadas no projeto.
 
 ### 4. Execute o Notebook 02
 
