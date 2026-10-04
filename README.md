@@ -330,7 +330,7 @@ Este repositório contém os códigos e a documentação utilizados no projeto.
 
 **Integrantes:**
 
-- Alex Felix
+- Ariel Felix
 - Bruno Dutra
 - Thieser Leal
 
