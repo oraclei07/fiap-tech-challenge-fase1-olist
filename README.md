@@ -1,6 +1,6 @@
 # Tech Challenge - Fase 1 | Data Analytics FIAP
 
-![Capa do projeto](imagens/01_capa_v2.png)
+![Capa do projeto](imagens/01_capa_v3.png)
 
 ## Sobre o projeto
 
