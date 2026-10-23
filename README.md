@@ -317,7 +317,7 @@ Este repositório contém os códigos e a documentação utilizados no projeto.
 
 ### Apresentação executiva
 
-**Link:** (apresentacao/POS-TECH_FIAP-F1_V02.pdf)
+**Link:** ![Capa do projeto](apresentacao/POS-TECH_FIAP-F1_V02.pdf)
 
 ### Vídeo executivo
 
