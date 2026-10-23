@@ -313,15 +313,19 @@ os principais achados e o storytelling executivo.
 
 ### Repositório GitHub
 
-Este repositório contém os códigos e a documentação utilizados no projeto.
+Este repositório reúne os códigos, notebooks e a documentação desenvolvidos para o Tech Challenge – Fase 1 da Pós-Tech em Data Analytics da FIAP.
 
 ### Apresentação executiva
 
-**Link:** ![Capa do projeto](apresentacao/POS-TECH_FIAP-F1_V02.pdf)
+A apresentação consolida os principais resultados da análise dos dados de e-commerce da Olist, com foco na relação entre satisfação dos clientes, valor transacionado e desempenho das entregas.
+
+**📊 [Acessar apresentação executiva (PDF)](apresentacao/POS-TECH_FIAP-F1_V02.pdf)**
 
 ### Vídeo executivo
 
-**Link:** será incluído após a publicação do vídeo final.
+Apresentação dos principais achados, conclusões e recomendações do projeto.
+
+**🎥 [Assistir ao vídeo no YouTube](https://youtu.be/kw7Eq8BZJRs)**
 
 ---
 
