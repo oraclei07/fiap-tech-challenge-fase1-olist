@@ -1,6 +1,6 @@
 # Tech Challenge - Fase 1 | Data Analytics FIAP
 
-![Capa do projeto](imagens/01_capa_v3.png)
+![Capa do projeto](imagens/01_capa.png)
 
 ## Sobre o projeto
 
@@ -174,6 +174,7 @@ fiap-tech-challenge-fase1-olist/
 │
 ├── imagens/
 │   ├── 01_capa.png
+│   ├── 01_contexto_olist.png
 │   ├── 02_contexto_comercial.png
 │   ├── 03_satisfacao_valor.png
 │   ├── 04_atraso_entrega.png
@@ -325,8 +326,6 @@ Este repositório contém os códigos e a documentação utilizados no projeto.
 ---
 
 ## Grupo
-
-**Grupo:** SBSJS.26
 
 **Integrantes:**
 
